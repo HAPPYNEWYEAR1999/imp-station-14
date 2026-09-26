@@ -4,8 +4,8 @@ meta:
   engineVersion: 270.1.0
   forkId: ""
   forkVersion: ""
-  time: 09/25/2026 23:21:01
-  entityCount: 18516
+  time: 09/26/2026 20:16:42
+  entityCount: 18519
 maps:
 - 1
 grids:
@@ -13770,15 +13770,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -75.5,6.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-- proto: BarSignLV426
-  entities:
-  - uid: 11173
-    components:
-    - type: Transform
-      pos: -50.5,34.5
       parent: 2
     - type: AccessReader
       accessListsOriginal:
@@ -46970,7 +46961,7 @@ entities:
       pos: -23.5,42.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -175220.73
+      secondsUntilStateChange: -176932.77
       state: Closing
 - proto: CurtainsWhite
   entities:
@@ -46990,7 +46981,7 @@ entities:
       pos: -9.5,51.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -458258.12
+      secondsUntilStateChange: -459970.16
       state: Opening
   - uid: 6747
     components:
@@ -46998,7 +46989,7 @@ entities:
       pos: -8.5,51.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -458258.84
+      secondsUntilStateChange: -459970.88
       state: Opening
   - uid: 6749
     components:
@@ -47006,7 +46997,7 @@ entities:
       pos: -6.5,51.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -458257.4
+      secondsUntilStateChange: -459969.44
       state: Opening
   - uid: 6750
     components:
@@ -47014,7 +47005,7 @@ entities:
       pos: -5.5,51.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -458256.78
+      secondsUntilStateChange: -459968.8
       state: Opening
 - proto: CyberPen
   entities:
@@ -93811,11 +93802,6 @@ entities:
     - type: Transform
       pos: -0.5,47.5
       parent: 2
-  - uid: 4352
-    components:
-    - type: Transform
-      pos: -32.5,34.5
-      parent: 2
   - uid: 5769
     components:
     - type: Transform
@@ -98295,6 +98281,29 @@ entities:
     components:
     - type: Transform
       pos: -74.5,53.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+- proto: SignSmoking
+  entities:
+  - uid: 4352
+    components:
+    - type: Transform
+      pos: -3.5,3.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 11038
+    components:
+    - type: Transform
+      pos: -28.5,33.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
+  - uid: 18517
+    components:
+    - type: Transform
+      pos: -0.5,-1.5
       parent: 2
     - type: Fixtures
       fixtures: {}
@@ -107673,10 +107682,10 @@ entities:
       parent: 2
 - proto: WallpaperStarsBig
   entities:
-  - uid: 17179
+  - uid: 18518
     components:
     - type: Transform
-      pos: -48.886826,34.47814
+      pos: -49.944748,34.51897
       parent: 2
 - proto: WallpaperStarsMoon
   entities:
@@ -107685,12 +107694,22 @@ entities:
     - type: Transform
       pos: -21.5,42.5
       parent: 2
+  - uid: 17179
+    components:
+    - type: Transform
+      pos: -51.100998,34.45647
+      parent: 2
 - proto: WallpaperStarsSmall
   entities:
   - uid: 10167
     components:
     - type: Transform
       pos: -24.5,42.5
+      parent: 2
+  - uid: 11173
+    components:
+    - type: Transform
+      pos: -48.835373,34.51897
       parent: 2
 - proto: WallReinforced
   entities:
@@ -120394,7 +120413,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -92063.27
+      secondsUntilStateChange: -93775.305
       state: Opening
     - type: Airlock
       autoClose: False
@@ -120625,11 +120644,6 @@ entities:
     - type: Transform
       pos: -65.5,68.5
       parent: 2
-  - uid: 11038
-    components:
-    - type: Transform
-      pos: -50.5,34.5
-      parent: 2
   - uid: 11046
     components:
     - type: Transform
@@ -120674,6 +120688,11 @@ entities:
     components:
     - type: Transform
       pos: -17.5,29.5
+      parent: 2
+  - uid: 18519
+    components:
+    - type: Transform
+      pos: -50.5,34.5
       parent: 2
 - proto: WindowDiagonal
   entities:
